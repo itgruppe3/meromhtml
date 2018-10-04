@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Mer om html</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <h1>Kapittel 4, kort oppsummert</h1> <br>
+    <!-- den største overskrifiten -->
+
+
+    <div class="mål">
+      <!-- en container, med klassen mål, som inneholder overskrift og punkter -->
+
+      <h3> Etter dette kapittelet skal vi kunne:  </h3>
+      <!--Den 3. største overskrifiten-->
+
+      <ul>
+        <!-- Uordnet liste med målene i kapittel 4 -->
+        <li>forklare hva internett er, og består av</li>
+        <li>forklare hvorfor standarder (protokoller) er nødvendige for Internett</li>
+        <li>beskrive protokollene IP, TCP og HTTP</li>
+      </ul>
+    </div>
+
+    <div class="overskrifter">
+      <!-- en container, med klassen overskrifter, som inneholder overskrift og en ordnet liste -->
+      <h3>Det som blir gått gjennom er:</h3>
+      <!--Den 3. største overskrifiten-->
+      <ol>
+        <!-- en ordnet liste med overskriftene fra kapittel 4 -->
+        <li>Nettverk</li>
+        <li>Sending av infromasjon</li>
+        <li>Internettstandarder</li>
+        <li>IP (Internettprotokoller)</li>
+        <li>localhost</li>
+        <li>TCP(Transmission Control Protocol)</li>
+        <li>HTTP (Hypertext Transfer Protocol)</li>
+
+      </ol>
+    </div>
+
+    <div class="protokoller">
+      <!-- en container, med klassen protokoller, som inneholder en tabell-->
+      <table>
+        <!-- Tabell som inneholder de viktigste protokollene -->
+        <tr>
+          <th>De viktige protokollene</th>
+          <th>les mer</th>
+        </tr>
+        <tr>
+          <td>IP</td>
+          <td><a href="ip.html">Klikk her</a></td>
+        </tr>
+        <tr>
+          <td>TCP</td>
+          <td><a href="tcp.html">Klikk her</a></td>
+        </tr>
+        <tr>
+          <td>HTTP</td>
+          <td><a href="http.html">Klikk her</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="sammendrag">
+      <!-- en container, med klassen sammendrag, som inneholder en lydfil-->
+      <audio controls   src="audio/sammendrag.mp3" type="audio/mpeg">nettleseren din støtter ikke lyd</audio> <br>
+      <!--lydfil der Elias oppsummerer kapittel 4 -->
+    </div>
+
+    <div class="videofil">
+      <!-- en container, med klassen videofil, som inneholder en video-->
+      <video controls  width="1080" height="720" src="img/video1.mp4" alt="your browser does not support video"></video><br> <!-- Video om hvordan internettet fungerer-->
+    </div>
+
+    <div class="mappestruktur">
+      <!-- en container, med klassen mappestruktur, som inneholder et bilde-->
+      <img src="img/img1.png" width="1080" height="720"alt="bilde av mappestruktur">
+      <!-- et bilde av mappestrukturen vår -->
+      <!-- bildet har breede 1080piksler og høyde på 720piksler -->
+    </div>
+
+    <div class="skjema">
+      <!-- en container, med klassen skjema, som inneholder et spørreskjema-->
+      <form method="get">
+        <!-- Skjema som spør om noe interessant-->
+
+        <label>Navn</label><br>
+        <!-- overskriften -->
+        <input placeholder="Enter your Name" required><br>
+        <!-- her kan brukeren skrive noe -->
+
+        <label>Alder</label><br>
+        <!-- overskriften -->
+        <input  placeholder="Enter your age" required><br>
+        <!-- her kan brukeren skrive noe -->
+
+        <label>Er vann vått?</label><br>
+        <!-- overskriften -->
+        <input  placeholder="Enter your answer" required><br>
+        <!-- her kan brukeren skrive noe -->
+
+        <label>Favorittfilm</label><br>
+        <!-- overskriften -->
+        <input placeholder="Enter your favourite movie" required><br>
+        <!-- her kan brukeren skrive noe -->
+
+
+        <input type="submit" name="submit" value="send">
+
+      </form>
+    </div>
+
+
+  </body>
+</html>

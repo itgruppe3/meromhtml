@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IP</title>
+</head>
+<body>
+
+  <h1>IP</h1>
+
+  <a href="index.html">Tilbake</a>
+
+  <p>Verdensveven (www, eng. «World Wide Web») er en av de viktigste tjenestene på Internett. Protokollen som sørger for at verdensveven fungerer, heter HTTP
+  («Hypertext Transfer Protocol»). Denne protokollen brukes av nettlesere og tjenere slik at de kan kommunisere med hverandre. <br>
+
+ Når vi skriver inn en adresse i nettleseren vår, vil nettleseren koble seg til tjeneren og sende en HTTP-forespørsel. Denne forespørselen inneholder informasjon om hva klienten ønsker tilgang til. De første linjene i en forespørsel kan se slik ut: <br><br>
+
+ GET / HTTP/1.1 <br>
+
+  Host: www.aschehoug.no <br>
+  ... <br>
+
+
+  Her sender vi en forespørsel til www.aschehoug.no. Dersom siden finnes, vil tjeneren sende et svar til klientens nettleser. De første linjene i et svar kan se slik ut: <br><br>
+
+  HTTP/1.1 200 OK <br>
+  Server: Apache/2.2.15 (Red Hat) <br>
+  ... <br>
+  ... <br>
+  ... <br> <br>
+ <!doctype html> <br>
+  ... <br>
+  Tjeneren finner fram den ønskede siden og sender den til klienten sammen med informasjonen ovenfor. Nettleseren viser så fram svaret som en nettside. Dersom tjeneren ikke finner ønsket side, blir en 404-feilmelding sendt i stedet. Denne feilmeldingen står for «Page Not Found». Dersom vi forsøker å åpne siden http://www.aschehoug.no/it.html, som ikke eksisterer, får vi et svar som kan se slik ut: <br><br>
+  HTTP/1.1 404 Not Found <br>
+  Server: Apache/2.2.15 (Red Hat) <br>
+  ... <br><br>
+ Etter at tjeneren har sendt siden til klienten, blir koblingen avsluttet. Denne prosessen gjentar seg hver gang vi klikker på en lenke eller skriver inn en ny adresse i nettleseren vår.
+  </p>
+
+
+
+</body>
+</html>
